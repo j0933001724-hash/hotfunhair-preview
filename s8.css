@@ -158,7 +158,7 @@ h3{font-size:22px}.lim,.split p,.side .lim{font-size:17px}.note{font-size:15px}.
  .band{min-height:440px}.band .w{padding-bottom:44px}
  .vwrap video{object-fit:cover;background:#efe7dc}}
 
-/* r23 btns row */.btns{display:flex;align-items:center;flex-wrap:wrap;gap:12px 20px}.btns .tl{margin:0;display:inline-block;white-space:nowrap}@media(max-width:767px){.btns .tl{display:inline-block;margin:0}}@media(max-width:419px){.btns{flex-direction:column;align-items:flex-start}}
+/* r23 btns row */.btns{display:flex;align-items:center;flex-wrap:wrap;gap:12px 20px}.btns .tl{margin:0;display:inline-block;white-space:nowrap}@media(max-width:767px){.btns .tl{display:inline-block;margin:0}}@media(max-width:339px){.btns{flex-direction:column;align-items:flex-start}}
 
 /* r23b h1 */@media(max-width:419px){.hero h1{font-size:33px}}
 
