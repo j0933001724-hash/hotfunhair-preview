@@ -161,3 +161,5 @@ h3{font-size:22px}.lim,.split p,.side .lim{font-size:17px}.note{font-size:15px}.
 /* r23 btns row */.btns{display:flex;align-items:center;flex-wrap:wrap;gap:12px 20px}.btns .tl{margin:0;display:inline-block;white-space:nowrap}@media(max-width:767px){.btns .tl{display:inline-block;margin:0}}@media(max-width:419px){.btns{flex-direction:column;align-items:flex-start}}
 
 /* r23b h1 */@media(max-width:419px){.hero h1{font-size:33px}}
+
+/* r23c mobile fit */@media(max-width:767px){.btns{gap:10px 14px}.btns .btn{padding:13px 18px;letter-spacing:.06em;font-size:15px}.btns .tl{font-size:14px;letter-spacing:.02em}}
