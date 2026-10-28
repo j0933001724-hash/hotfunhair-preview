@@ -139,3 +139,21 @@ a:focus-visible,button:focus-visible,summary:focus-visible{outline:3px solid var
 /* parking */.parking{margin:24px 0 0}.pk-list{list-style:none;padding:0;margin:10px 0}.pk-list li{display:flex;align-items:center;justify-content:space-between;gap:12px;padding:12px 0;border-bottom:1px solid var(--line)}.pk-n{display:flex;flex-direction:column}.pk-n small{font-size:13px;color:var(--mut)}.pk-map{flex:none;display:inline-block;padding:8px 16px;border:1px solid currentColor;border-radius:999px;font-size:14px;text-decoration:none;white-space:nowrap}
 
 /* route videos */.routevid{margin:24px 0 0}.rv-g{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin-top:10px}.rv-f{position:relative;aspect-ratio:9/16;background:#000;border-radius:10px;overflow:hidden}.rv-f iframe{position:absolute;inset:0;width:100%;height:100%;border:0}.rv-v figcaption{font-size:14px;margin-top:6px;text-align:center}@media(max-width:520px){.rv-g{grid-template-columns:1fr;max-width:340px}}
+
+/* r22 type scale + variety */
+body{font-size:17px;line-height:1.95}
+h2{font-size:clamp(30px,3.6vw,48px);line-height:1.35}
+h3{font-size:22px}.lim,.split p,.side .lim{font-size:17px}.note{font-size:15px}.qa h3{font-size:20px}.qa p{font-size:17px}
+.s.alt .w.side{grid-template-columns:1fr 1.25fr}.s.alt .w.side>aside{order:-1}
+.band{position:relative;min-height:62vh;display:flex;align-items:flex-end;overflow:hidden;color:#fff}
+.band img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+.band:after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,#0000 35%,#2a201cd0)}
+.band .w{position:relative;z-index:1;padding-bottom:70px;width:100%}
+.band q{display:block;font-family:var(--fh);font-weight:900;font-size:clamp(28px,4vw,54px);line-height:1.4;quotes:none;text-shadow:0 2px 14px #0006}
+.band small{display:block;margin-top:14px;font-size:15px;letter-spacing:.24em;color:#f1e7df}
+.vwrap{background:#efe7dc}
+#hfh-bv-b{background:#3d332e;color:#fff;font-size:15px;font-weight:700;padding:11px 20px;box-shadow:0 4px 14px #0004;right:14px;bottom:14px}
+@media(max-width:767px){body{font-size:17.5px}h2{font-size:29px}h3{font-size:20px}
+ .s.alt .w.side{grid-template-columns:1fr}.s.alt .w.side>aside{order:0}
+ .band{min-height:440px}.band .w{padding-bottom:44px}
+ .vwrap video{object-fit:cover;background:#efe7dc}}
