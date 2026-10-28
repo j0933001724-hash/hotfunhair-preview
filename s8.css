@@ -165,3 +165,5 @@ h3{font-size:22px}.lim,.split p,.side .lim{font-size:17px}.note{font-size:15px}.
 /* r23c mobile fit */@media(max-width:767px){.btns{gap:10px 14px}.btns .btn{padding:13px 18px;letter-spacing:.06em;font-size:15px}.btns .tl{font-size:14px;letter-spacing:.02em}}
 
 /* r26 badge+btns */@media(min-width:768px){.hero:not(.mh){grid-template-areas:"t t" "m q" "m b";grid-template-rows:auto auto 1fr}.hero:not(.mh) .stamp{position:static;justify-self:end;align-self:start;margin:0}.hero:not(.mh) h1{margin-top:140px}.hero:not(.mh) .kick{justify-self:start;margin-top:40px}.hero:not(.mh) .btns{grid-area:b;align-self:start;margin-top:8px}.hero:not(.mh) blockquote{margin-bottom:0}}
+
+/* r27 trust */.trust{font-size:.95rem;margin:.4em 0 .8em;color:inherit;opacity:.85}.trust a{color:inherit;text-decoration:underline}
