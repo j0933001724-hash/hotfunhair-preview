@@ -135,3 +135,5 @@ a:focus-visible,button:focus-visible,summary:focus-visible{outline:3px solid var
  .mbar a:first-child{background:var(--red);color:#fff}.mbar a:last-child{border:1px solid var(--ink)}
  body{padding-bottom:74px}
 }
+
+/* parking */.parking{margin:24px 0 0}.pk-list{list-style:none;padding:0;margin:10px 0}.pk-list li{display:flex;align-items:center;justify-content:space-between;gap:12px;padding:12px 0;border-bottom:1px solid var(--line)}.pk-n{display:flex;flex-direction:column}.pk-n small{font-size:13px;color:var(--mut)}.pk-map{flex:none;display:inline-block;padding:8px 16px;border:1px solid currentColor;border-radius:999px;font-size:14px;text-decoration:none;white-space:nowrap}
