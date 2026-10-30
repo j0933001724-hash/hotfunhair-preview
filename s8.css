@@ -173,3 +173,5 @@ h3{font-size:22px}.lim,.split p,.side .lim{font-size:17px}.note{font-size:15px}.
 /* r28 tablet */@media(min-width:768px) and (max-width:1100px){.hero:not(.mh){grid-template-areas:"t" "q" "b" "m"!important;grid-template-columns:1fr!important;grid-template-rows:auto!important}.top nav a{white-space:nowrap;font-size:12px}.top nav ul{gap:12px}.top .btn{white-space:nowrap}}
 
 /* r30 before/after */.ba2{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin:0 0 16px}.ba2 figure{margin:0;position:relative}.ba2 img{width:100%;height:auto;border-radius:4px}.ba2 figcaption{position:absolute;left:8px;top:8px;background:rgba(0,0,0,.6);color:#fff;font-size:14px;line-height:1;padding:6px 10px;border-radius:3px}.duo{display:grid;grid-template-columns:1fr 1fr;gap:8px}.duo img{width:100%;height:auto}.sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0)}
+/* r30b brand video: show full 16:9 frame (no side crop) */@media(min-width:768px){.vwrap video{aspect-ratio:16/9;object-fit:contain;height:auto}.hmed>*{min-width:0}}
+@media(min-width:1024px){.g4:has(>figure:nth-child(5)){grid-template-columns:repeat(5,1fr);gap:18px}}
