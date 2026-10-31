@@ -186,3 +186,5 @@ header.top nav#mainnav{display:none!important}header.top.mopen nav#mainnav{displ
 header.top.mopen nav#mainnav ul{display:flex!important;flex-direction:column;gap:0!important;margin:0;padding:6px 22px 12px;list-style:none}header.top.mopen nav#mainnav li{border-bottom:1px solid #0000000f}header.top.mopen nav#mainnav a{display:block;padding:13px 4px;font-size:17px!important;letter-spacing:.06em;color:#3d332e;text-decoration:none}header.top.mopen nav#mainnav a[aria-current]{color:#a35447;font-weight:700}
 header.top .btn.sm{padding-left:12px;padding-right:12px}}
 @media(max-width:359px){.mnav-t{display:none}}
+
+/* r31 */.rv-g{grid-template-columns:repeat(3,1fr)}.rv-nv{position:absolute;inset:0;width:100%;height:100%;object-fit:contain;background:#000}@media(max-width:767px){.rv-g{grid-template-columns:1fr 1fr}}@media(max-width:520px){.rv-g{grid-template-columns:1fr;max-width:340px}}
