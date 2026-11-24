@@ -188,3 +188,6 @@ header.top .btn.sm{padding-left:12px;padding-right:12px}}
 @media(max-width:359px){.mnav-t{display:none}}
 
 /* r31 */.rv-g{grid-template-columns:repeat(3,1fr)}.rv-nv{position:absolute;inset:0;width:100%;height:100%;object-fit:contain;background:#000}@media(max-width:767px){.rv-g{grid-template-columns:1fr 1fr}}@media(max-width:520px){.rv-g{grid-template-columns:1fr;max-width:340px}}
+
+/* r32 compare tables */
+.wwtbl-wrap{overflow-x:auto;-webkit-overflow-scrolling:touch;margin:1.2em 0}.wwtbl{border-collapse:collapse;width:100%;max-width:960px;min-width:560px;font-size:16px}.wwtbl th,.wwtbl td{border:1px solid var(--line);padding:12px 10px;text-align:left;vertical-align:top}.wwtbl thead th{background:#f6f0ee}
